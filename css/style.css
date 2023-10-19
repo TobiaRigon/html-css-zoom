@@ -107,3 +107,8 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+a{
+    display: inline-block;
+    cursor: pointer;
+}
