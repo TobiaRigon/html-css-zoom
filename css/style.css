@@ -30,8 +30,8 @@ header{
    
 }
 
-header span{
-    background-color: rgb(95, 95, 95);
+.badge{
+    background-color: rgba(255, 255, 255, 0.4);
     padding:4px;
     border-radius: 5px;
     margin:4px 
@@ -40,17 +40,38 @@ header span{
 /* main */
 
 main{
+    background-color: black;
     flex-grow: 1;
     overflow-y:scroll;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    margin:4px 2px;
+    position: relative;
+}
+
+.mute{
+    margin:0;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+
+
 
 
 /* footer */
 
 footer{
     color: white;
-    background-color: black;
-   
-    height:40px;
+    background-color: rgb(34, 34, 34);
+    height:80px;
    
 }
