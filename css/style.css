@@ -63,15 +63,47 @@ main{
     left:0;
 }
 
-
-
-
-
 /* footer */
 
 footer{
+    display: flex;
     color: white;
     background-color: rgb(34, 34, 34);
-    height:80px;
-   
+    
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+.end{
+    line-height: 80px;
+    padding: 10px;
+    color: red;
+    background-color: gray;
+}
+
+.input_output_container{
+    display: flex;
+}
+
+.in_out{
+    display: flex;
+    align-items: center;
+}
+
+.in_out i{
+    padding: 10px;
+}
+
+.button_col{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
