@@ -1,0 +1,35 @@
+/* general */
+
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#wrapper{
+    height: 100vh;
+}
+
+/* header */
+
+header{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:40px;
+   
+}
+
+header span{
+    background-color: rgb(95, 95, 95);
+    padding:4px;
+    border-radius: 5px;
+    margin:4px 
+}
