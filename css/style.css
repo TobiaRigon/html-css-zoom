@@ -13,6 +13,9 @@
 
 #wrapper{
     height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 /* header */
@@ -32,4 +35,22 @@ header span{
     padding:4px;
     border-radius: 5px;
     margin:4px 
+}
+
+/* main */
+
+main{
+    flex-grow: 1;
+    overflow-y:scroll;
+}
+
+
+/* footer */
+
+footer{
+    color: white;
+    background-color: black;
+   
+    height:40px;
+   
 }
